@@ -1,0 +1,118 @@
+.header-top {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F6F6F6;
+    border-bottom: 1px solid #999999;
+    flex-wrap: wrap;
+}
+
+.header-top__left{
+    display: flex;
+    align-items: center;
+}
+.header-top__title{
+    margin: 0;
+    font-family: SF Pro Text, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 30px;
+}
+
+.header-top__right {
+    display: flex;
+    align-items: center;
+}
+
+.user-wrapper{
+    padding: 5px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-family: SF Pro Text,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0D0D0D;
+    margin-right: 30px;
+}
+.user-wrapper--mobile{
+    display: none;
+    margin-top: 10px;
+}
+.user-wrapper__semicolon {
+    margin: 0 5px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+/*LogOut*/
+
+.logout-wrapper{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: .3s linear;
+}
+.logout-wrapper__svg path {
+    transition: .3s linear;
+}
+.logout-wrapper__title {
+    font-family: SF Pro Text,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 8px;
+}
+.logout-wrapper:hover {
+    color: #0055FB;
+}
+.logout-wrapper:hover .logout-wrapper__svg path{
+    stroke: #0055FB;
+}
+
+/*Full size toggle*/
+.full-size-toggle-wrapper {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.full-size-toggle {
+    padding: 4px;
+}
+.full-size-toggle__inner{
+    transition: .3s linear;
+}
+.full-size-toggle:hover .full-size-toggle__inner {
+    stroke: #0055FB;
+}
+.full-size-toggle:focus {
+    outline: none;
+    opacity: 0.5;
+    border: 2px solid #45A5FF;
+    border-radius: 7px;
+}
+.full-size-toggle:focus .full-size-toggle__inner {
+    stroke: #0055FB;
+}
+
+
+
+/*header bottom*/
+.header-bottom {
+    border-bottom: 1px solid #999999;
+}
+
+@media screen and (max-width: 800px) {
+    .user-wrapper{
+        display: none;
+    }
+    .user-wrapper--mobile{
+        display: block;
+    }
+}
