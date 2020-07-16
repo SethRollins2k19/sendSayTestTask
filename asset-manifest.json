@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sendSayTestTask/static/css/main.e872edf4.chunk.css",
+    "main.js": "/sendSayTestTask/static/js/main.67e3ad5a.chunk.js",
+    "main.js.map": "/sendSayTestTask/static/js/main.67e3ad5a.chunk.js.map",
+    "runtime-main.js": "/sendSayTestTask/static/js/runtime-main.23e64317.js",
+    "runtime-main.js.map": "/sendSayTestTask/static/js/runtime-main.23e64317.js.map",
+    "static/js/2.795a6114.chunk.js": "/sendSayTestTask/static/js/2.795a6114.chunk.js",
+    "static/js/2.795a6114.chunk.js.map": "/sendSayTestTask/static/js/2.795a6114.chunk.js.map",
+    "index.html": "/sendSayTestTask/index.html",
+    "precache-manifest.0fbffd356bcf68ec21d55148ce272038.js": "/sendSayTestTask/precache-manifest.0fbffd356bcf68ec21d55148ce272038.js",
+    "service-worker.js": "/sendSayTestTask/service-worker.js",
+    "static/css/main.e872edf4.chunk.css.map": "/sendSayTestTask/static/css/main.e872edf4.chunk.css.map",
+    "static/js/2.795a6114.chunk.js.LICENSE.txt": "/sendSayTestTask/static/js/2.795a6114.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/sendSayTestTask/static/media/SFProDisplay-Medium.c5a8e1f1.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23e64317.js",
+    "static/js/2.795a6114.chunk.js",
+    "static/css/main.e872edf4.chunk.css",
+    "static/js/main.67e3ad5a.chunk.js"
+  ]
+}
