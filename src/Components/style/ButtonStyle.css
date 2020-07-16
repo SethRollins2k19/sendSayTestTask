@@ -1,0 +1,31 @@
+.button {
+    cursor: pointer;
+    border-radius: 5px;
+    max-height: 40px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 5px 20px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #45A6FF 0%, #0055FB 100%), #C4C4C4;
+}
+
+.button:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(180deg, #45A6FF 0%, #0055FB 100%), #C4C4C4;
+}
+.button:focus{
+    outline: none;
+    padding: 3px 18px;
+
+    border: 2px solid #45A5FF;
+}
+.button--invalidate,
+.button--invalidate:hover,
+.button--invalidate:focus {
+    cursor: default;
+    border: none;
+    padding: 5px 20px;
+    background: linear-gradient(0deg, #C4C4C4, #C4C4C4);
+}
+

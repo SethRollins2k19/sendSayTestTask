@@ -1,3 +1,18 @@
+@font-face {
+    font-family: SF Pro Text;
+    src: url("./Assets/font/SFProDisplay-Medium.ttf");
+    src: url("./Assets/font/SFProDisplay-Medium.woff");
+    src: url("./Assets/font/SFProDisplay-Medium.woff2");
+}
+@font-face {
+    font-family: Fira Code;
+    src: url("./Assets/font/Firacodemedium.ttf");
+    src: url("./Assets/font/Firacodemedium.woff");
+    src: url("./Assets/font/Firacodemedium.woff2");
+}
+
+
+
 .App {
   text-align: center;
 }
